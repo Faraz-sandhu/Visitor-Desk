@@ -70,3 +70,9 @@ Run regression checks with `php artisan test`. If the CLI does not enable SQLite
 
 
 Repository: [Faraz-sandhu/Visitor-Desk](https://github.com/Faraz-sandhu/Visitor-Desk)
+
+### Live visitor camera
+
+On visitor check-in/edit, choose **Open camera**, allow browser permission, and select the built-in or USB webcam. Use **Capture photo**, **Retake**, then **Use photo** to attach a JPEG. The photo is stored when the visitor form is submitted; regular image uploads remain available. Live capture requires HTTPS or localhost. Camera access stops after capture, when closed, or when leaving the screen.
+
+Camera source selection shows only detected cameras, such as the integrated camera and attached USB webcam. Select a camera by its device name. The browser remembers successful selections locally. Refresh cameras or reconnect the webcam if it is not listed.
